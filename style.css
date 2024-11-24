@@ -1,0 +1,31 @@
+
+.a1{
+    border: solid 1px;
+    text-decoration: none;
+    padding:2px 10px 2px 10px ;
+}
+.a2{
+    margin-left: 14px;
+}
+body{
+    background: linear-gradient(to right, rgb(7, 105, 161),rgb(25, 76, 187),purple);
+}
+
+.bouton{
+    padding:2px 70px 2px 70px;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+}
+
+div{
+    text-align: center;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 4px;
+    width: 300px; 
+    padding-bottom: 90px ;
+    position: center;
+}
+
+
