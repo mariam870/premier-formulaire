@@ -1,31 +1,73 @@
-
+ body{ 
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(260deg,rgb(201, 104, 193),slateblue);
+    
+}
+form{
+    background-color: white;
+    border:solid 1px rgb(238, 228, 228);
+    border-radius: 7px;
+    width: 200px;
+    padding: 0 40px 10px 40px;
+}
+h2{
+    text-align: center;
+}
+/*pour les lien*/
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+/*pour les input et les label*/
+.element{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+input{
+    padding: 5px;
+    border-radius: 7px;
+} 
+/*paragraphe du pied de la page*/
+p{
+    text-align: center;
+    font-size: 11px;
+   
+}
+span{
+    font-size: 11px;
+}
+/*pour le sign up*/
+.btn{
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    padding: 5px;
+    
+}
+/* pour les bouton et lien*/
+a{
+    text-decoration:none ;
+    
+}
 .a1{
-    border: solid 1px;
-    text-decoration: none;
-    padding:2px 10px 2px 10px ;
+    padding: 15px; 
+    width:120px;
+    background: rgb(24, 24, 143);
+    color: antiquewhite;
+    border-radius: 5px; 
+    margin: 5px;
 }
 .a2{
-    margin-left: 14px;
+    padding: 10px; 
+    width: 120px;
+    background: rgb(236, 236, 241);
+    color: rgb(14, 11, 8);
+    border-radius: 5px;
+    margin: 5px;
 }
-body{
-    background: linear-gradient(to right, rgb(7, 105, 161),rgb(25, 76, 187),purple);
-}
-
-.bouton{
-    padding:2px 70px 2px 70px;
-    background-color: black;
-    border-radius: 4px;
-    color: white;
-}
-
-div{
-    text-align: center;
-    background-color: white;
-    margin-top: 200px;
-    border-radius: 4px;
-    width: 300px; 
-    padding-bottom: 90px ;
-    position: center;
-}
-
-

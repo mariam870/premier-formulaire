@@ -1,23 +1,27 @@
 <!Doctype html>
 <html>
     <head>
-    <title>SITE WEB </title>
+    <title>Formulaire </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
-<body>
-    <div>
+<body class="body">
+    <form action="">
         <h2>Sign In with</h2>
-        <form action="">
-       <button> <a class="a1" href="">Facebook</a></button>
-       <button><a class="a1" href="">Google</a><br></button>
-            <label for="">Username</label><br>
-            <input type="text"><br>
-            <label for="">Password <a href="Forgot"></a></label><br>
-            <input type="text"><br><br>
-            <button class="bouton">Sign In</button>
+          <div class="button">
+             <button class="a1"><i class="fa-brands fa-facebook"></i>Facebook</button>
+             <button class="a2"><i class="fa-brands fa-google"></i>Google</button>
+          </div>
+            <div class="element">
+                  <label for="">Username</label>
+                  <input type="text"><br>
+                  <label for="">Password <a href="Forgot"><span>Forgot?</span></a></label>
+                  <input type="text"><br>
+                  <button class="btn">Sign In</button>
+            </div>
+                
             <p>Not a member? <a href="">Sign Up Now</a> </p>
         </form>
-    </div>
 </body>
 </html>
